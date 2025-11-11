@@ -6,8 +6,8 @@ def approximate_pi(n_terms):
         else:
             lst.append(-1/(i*2+1))
         
-    print(4*sum(lst))
-approximate_pi(1000)
+    return 4*sum(lst)
+
         
     
     
